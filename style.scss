@@ -29,7 +29,6 @@ body {
   padding: 0 10px;
   width: 100%;
   min-height: 70vh;
-  height:70vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -283,7 +282,15 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
