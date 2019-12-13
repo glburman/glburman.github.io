@@ -21,6 +21,8 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  height: 100vh;
+  min-height: 100vh;
 }
 
 .container {
@@ -28,8 +30,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
-  height: 100vh;
-  min-height: 100vh;
+ 
 }
 
 h1, h2, h3, h4, h5, h6 {
